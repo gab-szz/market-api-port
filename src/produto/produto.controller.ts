@@ -1,5 +1,5 @@
 import { Controller, Post, Body, Get, ValidationPipe } from '@nestjs/common';
-import { CreateProdutoDto } from '../produto/create-produto.dto';
+import { CreateProdutoDto } from './dto/create-produto.dto';
 import { ProdutoRepository } from './produto.repository';
 
 @Controller('/produtos')
